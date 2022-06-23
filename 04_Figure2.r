@@ -1,7 +1,7 @@
 ### Preparing data for figure 2
 
 ### Women
-### TCAL.f.list is created in "Estimates.r"
+### TCAL.f.list is created in "CalculationAndDecomposition.r"
 
 for (i in 1:101) {
     TCAL.f.list[[i]]$Cohort <- 2020-i
