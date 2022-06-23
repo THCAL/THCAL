@@ -1,7 +1,7 @@
 ### Preparing data for figure 2
 
 ### Women
-### TCAL.f.list is created in "CalculationAndDecomposition.r"
+### TCAL.f.list is created in "02_CalculationAndDecomposition.r"
 
 for (i in 1:101) {
     TCAL.f.list[[i]]$Cohort <- 2020-i
@@ -19,7 +19,7 @@ comp.f.matrix.lx <- matrix(comp.f.plot$lx, nrow=51, ncol=40)
 comp.f.matrix.pi <- matrix(comp.f.plot$pi, nrow=51, ncol=40)
 
 ### Men
-### TCAL.m.list is created in "Estimates.r"
+### TCAL.m.list is created in "02_CalculationAndDecomposition.r"
 for (i in 1:101) {
     TCAL.m.list[[i]]$Cohort <- 2020-i
 }
